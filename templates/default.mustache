@@ -20,7 +20,7 @@ var colour_scheme = {
         'base0F': '#{{base0F-hex}}',
 };
 
-var cursor_colour = ({{base05-rgb-r}}, {{base05-rgb-g}}, {{base05-rgb-b}}, 0.5);
+var cursor_colour = "rgba({{base05-rgb-r}}, {{base05-rgb-g}}, {{base05-rgb-b}}, 0.5)";
 term_.prefs_.set('background-color', colour_scheme.base00);
 term_.prefs_.set('foreground-color', colour_scheme.base05);
 term_.prefs_.set('cursor-color', cursor_colour);
