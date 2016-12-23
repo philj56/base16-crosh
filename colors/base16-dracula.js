@@ -1,26 +1,26 @@
-// Base16 Railscasts
-// Scheme: Ryan Bates (http://railscasts.com)
+// Base16 Dracula
+// Scheme: Mike Barkmin (http://github.com/mikebarkmin) based on Dracula Theme (http://github.com/dracula)
 
 var color_scheme = {
-        'base00': '#2b2b2b',
-        'base01': '#272935',
-        'base02': '#3a4055',
-        'base03': '#5a647e',
-        'base04': '#d4cfc9',
-        'base05': '#e6e1dc',
-        'base06': '#f4f1ed',
-        'base07': '#f9f7f3',
-        'base08': '#da4939',
-        'base09': '#cc7833',
-        'base0A': '#ffc66d',
-        'base0B': '#a5c261',
-        'base0C': '#519f50',
-        'base0D': '#6d9cbe',
-        'base0E': '#b6b3eb',
-        'base0F': '#bc9458',
+        'base00': '#282936',
+        'base01': '#3a3c4e',
+        'base02': '#4d4f68',
+        'base03': '#626483',
+        'base04': '#62d6e8',
+        'base05': '#e9e9f4',
+        'base06': '#f1f2f8',
+        'base07': '#f7f7fb',
+        'base08': '#ea51b2',
+        'base09': '#b45bcf',
+        'base0A': '#00f769',
+        'base0B': '#ebff87',
+        'base0C': '#a1efe4',
+        'base0D': '#62d6e8',
+        'base0E': '#b45bcf',
+        'base0F': '#00f769',
 };
 
-var cursor_color = "rgba(230, 225, 220, 0.5)";
+var cursor_color = "rgba(233, 233, 244, 0.5)";
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
 term_.prefs_.set('cursor-color', cursor_color);
