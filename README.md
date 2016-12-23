@@ -4,7 +4,7 @@
 ![Base16 crosh](https://raw.github.com/philj56/base16-crosh/master/base16-crosh.png)
 
 ### Installation:
-1. Open crosh with **Ctrl-Shift-T**.
+1. Open crosh with **Ctrl-Alt-T**.
 2. Open the developer console with **Ctrl-Shift-J**.
 3. Paste the contents of colors/base16-{theme}.js into the console and press Enter. 
 
