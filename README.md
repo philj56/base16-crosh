@@ -8,4 +8,5 @@
 2. Open the developer console with **Ctrl-Shift-J**.
 3. Paste the contents of colors/base16-{theme}.js into the console and press Enter. 
 
-To return to the crosh defaults, use colors/crosh-default.js.
+To return to the crosh defaults, use colors/crosh-default.js. You may need to open 
+a new crosh window for all changes to take effect.
