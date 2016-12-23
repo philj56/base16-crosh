@@ -1,5 +1,5 @@
 # Base16 crosh
-[Base16](https://www.github.com/chriskempson/base16) themes for crosh.
+[Base16](https://github.com/chriskempson/base16) themes for crosh.
 
 ![Base16 crosh](https://raw.github.com/philj56/base16-crosh/master/base16-crosh.png)
 
