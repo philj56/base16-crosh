@@ -20,10 +20,9 @@ var color_scheme = {
         'base0F': '#9b703f',
 };
 
-var cursor_color = "rgba(167, 167, 167, 0.5)";
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', cursor_color);
+term_.prefs_.set('cursor-color', "rgba(167, 167, 167, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,
