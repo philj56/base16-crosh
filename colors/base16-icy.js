@@ -1,28 +1,28 @@
-// Base16 Material
-// Scheme: Nate Peterson
+// Base16 Icy Dark
+// Scheme: icyphox (https://icyphox.ga)
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
-        'base04': '#B2CCD6',
-        'base05': '#EEFFFF',
-        'base06': '#EEFFFF',
-        'base07': '#FFFFFF',
-        'base08': '#F07178',
-        'base09': '#F78C6C',
-        'base0A': '#FFCB6B',
-        'base0B': '#C3E88D',
-        'base0C': '#89DDFF',
-        'base0D': '#82AAFF',
-        'base0E': '#C792EA',
-        'base0F': '#FF5370',
+        'base00': '#222222',
+        'base01': '#424242',
+        'base02': '#616161',
+        'base03': '#757575',
+        'base04': '#9e9e9e',
+        'base05': '#bdbdbd',
+        'base06': '#e0e0e0',
+        'base07': '#eeeeee',
+        'base08': '#0097a7',
+        'base09': '#00acc1',
+        'base0A': '#00bcd4',
+        'base0B': '#26c6da',
+        'base0C': '#4dd0e1',
+        'base0D': '#80deea',
+        'base0E': '#b3ebf2',
+        'base0F': '#e0f7fa',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(238, 255, 255, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(189, 189, 189, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

@@ -1,28 +1,28 @@
-// Base16 Material
-// Scheme: Nate Peterson
+// Base16 IR Black
+// Scheme: Timothée Poisot (http://timotheepoisot.fr)
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
-        'base04': '#B2CCD6',
-        'base05': '#EEFFFF',
-        'base06': '#EEFFFF',
-        'base07': '#FFFFFF',
-        'base08': '#F07178',
-        'base09': '#F78C6C',
-        'base0A': '#FFCB6B',
-        'base0B': '#C3E88D',
-        'base0C': '#89DDFF',
-        'base0D': '#82AAFF',
-        'base0E': '#C792EA',
-        'base0F': '#FF5370',
+        'base00': '#000000',
+        'base01': '#242422',
+        'base02': '#484844',
+        'base03': '#6c6c66',
+        'base04': '#918f88',
+        'base05': '#b5b3aa',
+        'base06': '#d9d7cc',
+        'base07': '#fdfbee',
+        'base08': '#ff6c60',
+        'base09': '#e9c062',
+        'base0A': '#ffffb6',
+        'base0B': '#a8ff60',
+        'base0C': '#c6c5fe',
+        'base0D': '#96cbfe',
+        'base0E': '#ff73fd',
+        'base0F': '#b18a3d',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(238, 255, 255, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(181, 179, 170, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

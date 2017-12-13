@@ -1,11 +1,11 @@
-// Base16 Material
+// Base16 Material Darker
 // Scheme: Nate Peterson
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
+        'base00': '#212121',
+        'base01': '#303030',
+        'base02': '#353535',
+        'base03': '#4A4A4A',
         'base04': '#B2CCD6',
         'base05': '#EEFFFF',
         'base06': '#EEFFFF',
