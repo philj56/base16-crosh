@@ -1,28 +1,28 @@
-// Base16 Material
-// Scheme: Nate Peterson
+// Base16 Brush Trees
+// Scheme: Abraham White &lt;abelincoln.white@gmail.com&gt;
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
-        'base04': '#B2CCD6',
-        'base05': '#EEFFFF',
-        'base06': '#EEFFFF',
-        'base07': '#FFFFFF',
-        'base08': '#F07178',
-        'base09': '#F78C6C',
-        'base0A': '#FFCB6B',
-        'base0B': '#C3E88D',
-        'base0C': '#89DDFF',
-        'base0D': '#82AAFF',
-        'base0E': '#C792EA',
-        'base0F': '#FF5370',
+        'base00': '#E3EFEF',
+        'base01': '#C9DBDC',
+        'base02': '#B0C5C8',
+        'base03': '#98AFB5',
+        'base04': '#8299A1',
+        'base05': '#6D828E',
+        'base06': '#5A6D7A',
+        'base07': '#485867',
+        'base08': '#b38686',
+        'base09': '#d8bba2',
+        'base0A': '#aab386',
+        'base0B': '#87b386',
+        'base0C': '#86b3b3',
+        'base0D': '#868cb3',
+        'base0E': '#b386b2',
+        'base0F': '#b39f9f',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(238, 255, 255, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(109, 130, 142, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

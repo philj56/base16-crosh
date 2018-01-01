@@ -1,28 +1,28 @@
-// Base16 Material
-// Scheme: Nate Peterson
+// Base16 Green Screen
+// Scheme: Chris Kempson (http://chriskempson.com)
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
-        'base04': '#B2CCD6',
-        'base05': '#EEFFFF',
-        'base06': '#EEFFFF',
-        'base07': '#FFFFFF',
-        'base08': '#F07178',
-        'base09': '#F78C6C',
-        'base0A': '#FFCB6B',
-        'base0B': '#C3E88D',
-        'base0C': '#89DDFF',
-        'base0D': '#82AAFF',
-        'base0E': '#C792EA',
-        'base0F': '#FF5370',
+        'base00': '#001100',
+        'base01': '#003300',
+        'base02': '#005500',
+        'base03': '#007700',
+        'base04': '#009900',
+        'base05': '#00bb00',
+        'base06': '#00dd00',
+        'base07': '#00ff00',
+        'base08': '#007700',
+        'base09': '#009900',
+        'base0A': '#007700',
+        'base0B': '#00bb00',
+        'base0C': '#005500',
+        'base0D': '#009900',
+        'base0E': '#00bb00',
+        'base0F': '#005500',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(238, 255, 255, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(0, 187, 0, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

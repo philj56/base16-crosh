@@ -1,28 +1,28 @@
-// Base16 Material
-// Scheme: Nate Peterson
+// Base16 Seti UI
+// Scheme: 
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
-        'base04': '#B2CCD6',
-        'base05': '#EEFFFF',
-        'base06': '#EEFFFF',
-        'base07': '#FFFFFF',
-        'base08': '#F07178',
-        'base09': '#F78C6C',
-        'base0A': '#FFCB6B',
-        'base0B': '#C3E88D',
-        'base0C': '#89DDFF',
-        'base0D': '#82AAFF',
-        'base0E': '#C792EA',
-        'base0F': '#FF5370',
+        'base00': '#151718',
+        'base01': '#282a2b',
+        'base02': '#3B758C',
+        'base03': '#41535B',
+        'base04': '#43a5d5',
+        'base05': '#d6d6d6',
+        'base06': '#eeeeee',
+        'base07': '#ffffff',
+        'base08': '#Cd3f45',
+        'base09': '#db7b55',
+        'base0A': '#e6cd69',
+        'base0B': '#9fca56',
+        'base0C': '#55dbbe',
+        'base0D': '#55b5db',
+        'base0E': '#a074c4',
+        'base0F': '#8a553f',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(238, 255, 255, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(214, 214, 214, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

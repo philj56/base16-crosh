@@ -1,14 +1,14 @@
-// Base16 Material
+// Base16 Material Palenight
 // Scheme: Nate Peterson
 
 var color_scheme = {
-        'base00': '#263238',
-        'base01': '#2E3C43',
-        'base02': '#314549',
-        'base03': '#546E7A',
-        'base04': '#B2CCD6',
-        'base05': '#EEFFFF',
-        'base06': '#EEFFFF',
+        'base00': '#292D3E',
+        'base01': '#444267',
+        'base02': '#32374D',
+        'base03': '#676E95',
+        'base04': '#8796B0',
+        'base05': '#959DCB',
+        'base06': '#959DCB',
         'base07': '#FFFFFF',
         'base08': '#F07178',
         'base09': '#F78C6C',
@@ -22,7 +22,7 @@ var color_scheme = {
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(238, 255, 255, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(149, 157, 203, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,
