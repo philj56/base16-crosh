@@ -1,28 +1,28 @@
-// Base16 Icy Dark
-// Scheme: icyphox (https://icyphox.ga)
+// Base16 Outrun Dark
+// Scheme: Hugo Delahousse (http://github.com/hugodelahousse/)
 
 var color_scheme = {
-        'base00': '#021012',
-        'base01': '#031619',
-        'base02': '#041f23',
-        'base03': '#052e34',
-        'base04': '#064048',
-        'base05': '#095b67',
-        'base06': '#0c7c8c',
-        'base07': '#109cb0',
-        'base08': '#16c1d9',
-        'base09': '#b3ebf2',
-        'base0A': '#80deea',
-        'base0B': '#4dd0e1',
-        'base0C': '#26c6da',
-        'base0D': '#00bcd4',
-        'base0E': '#00acc1',
-        'base0F': '#0097a7',
+        'base00': '#00002A',
+        'base01': '#20204A',
+        'base02': '#30305A',
+        'base03': '#50507A',
+        'base04': '#B0B0DA',
+        'base05': '#D0D0FA',
+        'base06': '#E0E0FF',
+        'base07': '#F5F5FF',
+        'base08': '#FF4242',
+        'base09': '#FC8D28',
+        'base0A': '#F3E877',
+        'base0B': '#59F176',
+        'base0C': '#0EF0F0',
+        'base0D': '#66B0FF',
+        'base0E': '#F10596',
+        'base0F': '#F003EF',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(9, 91, 103, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(208, 208, 250, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

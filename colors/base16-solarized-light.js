@@ -1,5 +1,5 @@
 // Base16 Solarized Light
-// Scheme: Ethan Schoonover (http://ethanschoonover.com/solarized)
+// Scheme: Ethan Schoonover (modified by aramisgithub)
 
 var color_scheme = {
         'base00': '#fdf6e3',

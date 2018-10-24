@@ -1,28 +1,28 @@
-// Base16 Icy Dark
-// Scheme: icyphox (https://icyphox.ga)
+// Base16 Snazzy
+// Scheme: Chawye Hsu (https://github.com/h404bi) based on Hyper Snazzy Theme (https://github.com/sindresorhus/hyper-snazzy)
 
 var color_scheme = {
-        'base00': '#021012',
-        'base01': '#031619',
-        'base02': '#041f23',
-        'base03': '#052e34',
-        'base04': '#064048',
-        'base05': '#095b67',
-        'base06': '#0c7c8c',
-        'base07': '#109cb0',
-        'base08': '#16c1d9',
-        'base09': '#b3ebf2',
-        'base0A': '#80deea',
-        'base0B': '#4dd0e1',
-        'base0C': '#26c6da',
-        'base0D': '#00bcd4',
-        'base0E': '#00acc1',
-        'base0F': '#0097a7',
+        'base00': '#282a36',
+        'base01': '#34353e',
+        'base02': '#43454f',
+        'base03': '#78787e',
+        'base04': '#a5a5a9',
+        'base05': '#e2e4e5',
+        'base06': '#eff0eb',
+        'base07': '#f1f1f0',
+        'base08': '#ff5c57',
+        'base09': '#ff9f43',
+        'base0A': '#f3f99d',
+        'base0B': '#5af78e',
+        'base0C': '#9aedfe',
+        'base0D': '#57c7ff',
+        'base0E': '#ff6ac1',
+        'base0F': '#b2643c',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(9, 91, 103, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(226, 228, 229, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

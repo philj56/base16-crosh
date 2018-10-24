@@ -1,28 +1,28 @@
-// Base16 Icy Dark
-// Scheme: icyphox (https://icyphox.ga)
+// Base16 PaperColor Light
+// Scheme: Jon Leopard (http://github.com/jonleopard) based on PaperColor Theme (https://github.com/NLKNguyen/papercolor-theme)
 
 var color_scheme = {
-        'base00': '#021012',
-        'base01': '#031619',
-        'base02': '#041f23',
-        'base03': '#052e34',
-        'base04': '#064048',
-        'base05': '#095b67',
-        'base06': '#0c7c8c',
-        'base07': '#109cb0',
-        'base08': '#16c1d9',
-        'base09': '#b3ebf2',
-        'base0A': '#80deea',
-        'base0B': '#4dd0e1',
-        'base0C': '#26c6da',
-        'base0D': '#00bcd4',
-        'base0E': '#00acc1',
-        'base0F': '#0097a7',
+        'base00': '#eeeeee',
+        'base01': '#af0000',
+        'base02': '#008700',
+        'base03': '#5f8700',
+        'base04': '#0087af',
+        'base05': '#878787',
+        'base06': '#005f87',
+        'base07': '#444444',
+        'base08': '#bcbcbc',
+        'base09': '#d70000',
+        'base0A': '#d70087',
+        'base0B': '#8700af',
+        'base0C': '#d75f00',
+        'base0D': '#d75f00',
+        'base0E': '#005faf',
+        'base0F': '#005f87',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(9, 91, 103, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(135, 135, 135, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

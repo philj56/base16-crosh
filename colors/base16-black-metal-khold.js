@@ -1,28 +1,28 @@
-// Base16 Icy Dark
-// Scheme: icyphox (https://icyphox.ga)
+// Base16 Black Metal (Khold)
+// Scheme: metalelf0 (https://github.com/metalelf0)
 
 var color_scheme = {
-        'base00': '#021012',
-        'base01': '#031619',
-        'base02': '#041f23',
-        'base03': '#052e34',
-        'base04': '#064048',
-        'base05': '#095b67',
-        'base06': '#0c7c8c',
-        'base07': '#109cb0',
-        'base08': '#16c1d9',
-        'base09': '#b3ebf2',
-        'base0A': '#80deea',
-        'base0B': '#4dd0e1',
-        'base0C': '#26c6da',
-        'base0D': '#00bcd4',
-        'base0E': '#00acc1',
-        'base0F': '#0097a7',
+        'base00': '#000000',
+        'base01': '#121212',
+        'base02': '#222222',
+        'base03': '#333333',
+        'base04': '#999999',
+        'base05': '#c1c1c1',
+        'base06': '#999999',
+        'base07': '#c1c1c1',
+        'base08': '#5f8787',
+        'base09': '#aaaaaa',
+        'base0A': '#974b46',
+        'base0B': '#eceee3',
+        'base0C': '#aaaaaa',
+        'base0D': '#888888',
+        'base0E': '#999999',
+        'base0F': '#444444',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(9, 91, 103, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(193, 193, 193, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,

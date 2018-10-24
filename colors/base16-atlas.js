@@ -1,28 +1,28 @@
-// Base16 Icy Dark
-// Scheme: icyphox (https://icyphox.ga)
+// Base16 Atlas
+// Scheme: Alex Lende (https://ajlende.com)
 
 var color_scheme = {
-        'base00': '#021012',
-        'base01': '#031619',
-        'base02': '#041f23',
-        'base03': '#052e34',
-        'base04': '#064048',
-        'base05': '#095b67',
-        'base06': '#0c7c8c',
-        'base07': '#109cb0',
-        'base08': '#16c1d9',
-        'base09': '#b3ebf2',
-        'base0A': '#80deea',
-        'base0B': '#4dd0e1',
-        'base0C': '#26c6da',
-        'base0D': '#00bcd4',
-        'base0E': '#00acc1',
-        'base0F': '#0097a7',
+        'base00': '#002635',
+        'base01': '#00384d',
+        'base02': '#517F8D',
+        'base03': '#6C8B91',
+        'base04': '#869696',
+        'base05': '#a1a19a',
+        'base06': '#e6e6dc',
+        'base07': '#fafaf8',
+        'base08': '#ff5a67',
+        'base09': '#f08e48',
+        'base0A': '#ffcc1b',
+        'base0B': '#7fc06e',
+        'base0C': '#14747e',
+        'base0D': '#5dd7b9',
+        'base0E': '#9a70a4',
+        'base0F': '#c43060',
 };
 
 term_.prefs_.set('background-color', color_scheme.base00);
 term_.prefs_.set('foreground-color', color_scheme.base05);
-term_.prefs_.set('cursor-color', "rgba(9, 91, 103, 0.5)");
+term_.prefs_.set('cursor-color', "rgba(161, 161, 154, 0.5)");
 
 term_.prefs_.set('color-palette-overrides', 
                         [color_scheme.base00,
