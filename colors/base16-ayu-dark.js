@@ -1,5 +1,8 @@
-// Base16 3024
-// Scheme: Jan T. Sott (http://github.com/idleberg)
+/* Base16 Ayu Dark
+   Created August 14, 2019
+   Ayu themes by: Ike Ku (https://github.com/dempfi)
+                  Boom Lee (https://github.com/teabyii)
+   Crosh port by: Luxray5474 (https://github.com/Luxray5474) */
 
 var color_scheme = {
         'base00': '#0A0E14',
